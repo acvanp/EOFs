@@ -102,11 +102,11 @@ legend('mode 1 (45%)', 'mode 2 (1.1%)', 'mode 3 (0.4%)')
 
 set(gca,'ydir','reverse')
 
-hgsave(h, 'VanPlantinga_OCNG657_FinalExam_3E')
+hgsave(h, '')
 
 doc saveas
 
-saveas(h, 'VanPlantinga_OCNG657_FinalExam_3E.jpg')
+saveas(h, '')
 
 % Problem 3F. Reconstruct the six XBT casts usingonly the first two
 
@@ -144,8 +144,4 @@ xlabel('temperature C')
 
 ylabel('depth m')
 
-hgsave(h, 'VanPlantinga_OCNG657_FinalExam_3F')
 
-doc saveas
-
-saveas(h, 'VanPlantinga_OCNG657_FinalExam_3F.jpg')
